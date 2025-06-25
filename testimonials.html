@@ -4,16 +4,17 @@
   <meta charset="UTF-8">
   <title>Testimonials</title>
   <script>
-    const correctPin = "1812"; // Change this to your desired pin
-    const userPin = prompt("Please enter the PIN to access this page:");
+  const correctPin = "1812"; // Change this to your desired pin
+  const userPin = prompt("Please enter the PIN to access this page:");
 
-    if (userPin !== correctPin) {
-      alert("Incorrect PIN. Redirecting...");
-      window.location.href = "index.html"; // Or another fallback page
-    } else {
-      window.location.href = ".assets/testimonials.pdf"; // Path to your secure PDF
-    }
-  </script>
+  if (userPin !== correctPin) {
+    alert("Incorrect PIN. Redirecting...");
+    window.location.href = "index.html"; // Or another fallback page
+  } else {
+    window.location.href = "./assets/testimonials.pdf"; // Path to your secure PDF
+  }
+</script>
+
 </head>
 <body>
 </body>
